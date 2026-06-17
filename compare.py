@@ -1,14 +1,14 @@
 def main():
     n = int(input("First Number: "))
     n2 = int(input("Second Number: "))
-    print(comparingTwoNumbers(n, n2))
+    print(comparing_two_numbers(n, n2))
     if is_even(n):
         print(f"{n} is even")
     else:
         print(f"{n} is odd")
 
 
-def comparingTwoNumbers(n=0, n2=0):
+def comparing_two_numbers(n=0, n2=0):
     """
     In python we use "and" and "or" or "&"" and "|"
     So and = &

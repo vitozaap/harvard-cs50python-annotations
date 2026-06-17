@@ -1,9 +1,9 @@
 def main():
-    print(matchingNames(input("Your name: ")))
+    print(matching_names(input("Your name: ")))
 
 
 # Using match cases (switch cases) and using "or" statement | 
-def matchingNames(name):
+def matching_names(name):
     match name.capitalize():
         case "Victor" | "Zap":
             return "Its me!"

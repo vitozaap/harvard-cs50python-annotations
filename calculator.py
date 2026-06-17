@@ -13,17 +13,17 @@ def main():
         print(num + num2)
 
     # Will use default parameters values (1.0, 1.0)
-    calculateWithFloatValues()
+    calculate_with_float_values()
 
     # Will use the values that ive passed to it
-    calculateWithFloatValues(2.0, 3.0)
+    calculate_with_float_values(2.0, 3.0)
 
     # Printing the subtraction returning value
     print(subtraction(128, 64))
 
 
 # Defining function with default parameters values
-def calculateWithFloatValues(float1=1.0, float2=1.0):
+def calculate_with_float_values(float1=1.0, float2=1.0):
 
     # Uses the built-in function round() to round the calculation result by two digits
     print(f"rounded by 2 digits: {round((float1 + float2), 2)}")

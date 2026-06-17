@@ -1,5 +1,5 @@
 # Creating function
-def sayMyName(name):
+def say_my_name(name):
     # Splits the string using a whitespace as the key character, then assigns those substrings to variables (first, last) in order
     first, last = name.split(" ")
     # Using string datatype methods strip() remove the whitespace (start and end) and capitalize() capitalize the first character
@@ -11,4 +11,4 @@ def sayMyName(name):
 
 
 # Calling the function that ive created
-sayMyName(input("Whats your full name: ").strip())
+say_my_name(input("Whats your full name: ").strip())
