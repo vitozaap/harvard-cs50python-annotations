@@ -8,7 +8,9 @@ def say_my_name(name):
     print(f"Hello, (now in title mode) {name.title()}")
     # Prints the first and then the last name of the user
     print(f"firstname: {first}\nlastname: {last}")
+    return f"firstname: {first} \nlastname: {last}"
 
 
-# Calling the function that ive created
-say_my_name(input("Whats your full name: ").strip())
+if __name__ == "__main__":
+    # Calling the function that ive created
+    say_my_name(input("Whats your full name: ").strip())

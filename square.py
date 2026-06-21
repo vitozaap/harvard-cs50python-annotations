@@ -1,18 +1,11 @@
 def main():
-    size = int(input("size: "))
-
-    # for each row in square
-    for i in range(size):
-        # for each brick in row
-        for j in range(size):
-            # printing brick (no new line)
-            print("#", end="")
-        print()
-
-    print()
-    # same thing but way cleaner
-    for _ in range(size):
-        print("#" * size)
+    x = int(input("What's X? "))
+    print(f"x squared is {square(x)}")
 
 
-main()
+def square(n):
+    return n**2
+
+
+if __name__ == "__main__":
+    main()
